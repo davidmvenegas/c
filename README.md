@@ -1,1 +1,1 @@
-# c
+# The C language
