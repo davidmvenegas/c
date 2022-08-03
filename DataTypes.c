@@ -12,8 +12,11 @@ int main() {
 
     char f = 100;
 
+    short int h = 234;
+
     printf("%0.15f\n", c);
     printf("%0.15lf\n", d);
+    printf("%d\n", h);
 
     return 0;
 }
