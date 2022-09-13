@@ -8,8 +8,8 @@ int main() {
 
     printf("\n What is your name?");
     // scanf("%s", &name);
-    fgets(name, 25, stdin); //Accepts whitespace characters
-    name[strlen(name)-1] = '\0'; //remove next line
+    fgets(name, 25, stdin); // Accepts whitespace characters
+    name[strlen(name)-1] = '\0'; // remove next line
 
     printf("\n How old are you?");
     scanf("%d", &age);
